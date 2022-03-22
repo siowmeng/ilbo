@@ -634,7 +634,7 @@ for startState_idx in range(len(startState_list)):
         best_mm_qsa.set_weights(mm_qsa.get_weights())
         best_mm_actor = get_actor()
         best_mm_actor.set_weights(mm_actor.get_weights())
-        q_buffer = QsaBuffer(1000000, 64, alpha = 0.3)
+        q_buffer = QsaBuffer(1000000, 64, alpha = 0.2)
         actor_buffer = ActorBuffer(1000, 64)
         
         print("MM")
