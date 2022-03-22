@@ -1,0 +1,10 @@
+matplotlib
+numpy
+scipy
+rddlgym>=0.5.8
+rddl2tf>=0.5.4
+tensorflow==1.15.5
+tensorflow-tensorboard==1.5.1
+tfrddlsim>=0.7.0
+baselines==0.1.6
+
